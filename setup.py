@@ -13,6 +13,7 @@ except ImportError:
 here = os.path.abspath(os.path.dirname(__file__))
 
 DESCRIPTION = "Minimal database Model management for MongoDB"
+LONG_DESCRIPTION = "Minimal database Model management for MongoDB"
 
 try:
     LONG_DESCRIPTION = open(os.path.join(here, "README.rst")).read()
